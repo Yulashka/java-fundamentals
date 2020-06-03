@@ -11,7 +11,6 @@ public class BoysGirls {
         int avg = 0;
         int sumTrials = 0;
 
-
         for (int i = 0; i < 5; i++) {
             while (boys == 0 || girls == 0) {
                 double gender = Math.random();
@@ -31,7 +30,6 @@ public class BoysGirls {
             trials = 0;
         }
         System.out.println(sumTrials / avg + " average number of kids");
-
 
     }
 }
